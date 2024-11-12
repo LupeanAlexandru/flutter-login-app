@@ -1,16 +1,41 @@
-# flutter_app
+# Flutter Login App
 
-A new Flutter project.
+A simple Flutter login app with basic user authentication functionality.
+
+## Features
+
+- **User authentication**: Implements a login screen that validates existing user credentials or registers a new user based on the input.
+- **Responsive design**: Optimized for various screen sizes.
+- **State management**: Uses `Provider` for state management.
+
+## Screenshots
+
+![Login Screen](loginScreen.png)
+![Home Screen](homePage.png)
+
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- **Flutter**: [Install Flutter](https://flutter.dev/docs/get-started/install)
+- **Dart**: Flutter uses Dart for programming. Dart comes pre-installed with Flutter.
+- **Android Studio / VS Code**: Recommended for Flutter development.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Follow these steps to set up the project locally:
 
-A few resources to get you started if this is your first Flutter project:
+### 1. Clone the repository
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```bash
+git clone https://github.com/LupeanAlexandru/flutter-login-app.git
+cd flutter-login-app
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 2. Install dependencies
+
+Run the following command to fetch the necessary packages:
+
+```bash
+flutter pub get
+```
