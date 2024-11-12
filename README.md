@@ -39,3 +39,11 @@ Run the following command to fetch the necessary packages:
 ```bash
 flutter pub get
 ```
+
+### 3. Run the app
+
+Once the dependencies are installed, you can run the app on your machine:
+
+```bash
+flutter run
+```
